@@ -1,0 +1,50 @@
+html {
+    /*Root font-size will be set to % to allow the user to change their 
+     their browser setting*/
+    /* Defines what 1rem should be --> 100% = 16px */
+    font-size: 100%;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    padding-top: 80px;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+}
+
+/* NAVBAR STYLE */
+.navbar{
+    padding: 0 1rem;
+    box-shadow: 0px 1px 3px lightslategray;
+}
+
+.navbar-brand {
+    font-family: 'Coiny', cursive;
+    font-size: 1.5rem;
+}
+
+#nav-container {
+    max-width: 1200px;
+    padding-top: 0px;
+}
+/* BODY STYLE */
+.container {
+    max-width: 1200px;
+    padding-top: 40px;
+}
+
+
+.card {
+    box-shadow: 0px 1px 3px rgb(162, 170, 179);
+    margin-bottom: 20px;
+}
+
